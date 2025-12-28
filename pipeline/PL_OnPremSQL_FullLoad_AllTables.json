@@ -1,5 +1,5 @@
 {
-	"name": "on prem to azure sql_full load_all tables",
+	"name": "PL_OnPremSQL_FullLoad_AllTables",
 	"properties": {
 		"activities": [
 			{

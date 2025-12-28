@@ -1,5 +1,5 @@
 {
-	"name": "DS_MultiSourceAzureSQLGit_To_AzureSQL",
+	"name": "PL_MultiSourceAzureSQLGit_To_Blob",
 	"properties": {
 		"activities": [
 			{
