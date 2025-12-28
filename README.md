@@ -96,21 +96,11 @@ Schedule and dependency-based execution
 
 🔄 Pipelines Included
 
-PL_OnPremSQL_FullLoad
-
-Full data migration from on-prem SQL Server to Azure SQL / ADLS
-
-PL_OnPremSQL_IncrementalLoad
-
-Incremental data load using watermark column strategy
-
-PL_MetadataDriven_Load
-
-Metadata-driven framework to dynamically process multiple tables
-
-PL_Error_Logging
-
-Centralized pipeline execution and failure logging
+PL_MultiSourceAzureSQLGit_To_Blob - Full data Load from Multiple Tables and Github JSON file to multiple ParquetBlob files
+PL_OnPremSQL_FullLoad_AllTables - Full data migration of all the tables from on-prem SQL Server to Azure SQL / ADLS
+PL_OnPremSQL_IncrementalLoad - Incremental data load using watermark column strategy
+PL_MetadataDriven_Load - Metadata-driven framework to dynamically process multiple tables
+PL_Error_Logging - Centralized pipeline execution and failure logging
 
 🔐 Security & Connectivity
 
