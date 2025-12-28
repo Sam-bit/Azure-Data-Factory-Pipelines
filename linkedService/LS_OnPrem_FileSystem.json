@@ -1,0 +1,13 @@
+{
+	"name": "LS_OnPrem_FileSystem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\LAPTOP-FF63BU0E\\open",
+			"userId": "LENOVO",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEI0RkZBNEYyLTc4MjAtNDI0My04QTU5LTEyMDk0MTE5QzcwRV9mYmMwNjY0NS0xNjFhLTQzOTItOTg1Zi0xOGRmMzliZGYzZGEiDQp9"
+		}
+	}
+}
