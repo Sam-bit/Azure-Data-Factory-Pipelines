@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable4",
+	"name": "DS_Person_Address",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",

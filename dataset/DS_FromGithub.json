@@ -1,5 +1,5 @@
 {
-	"name": "Json1",
+	"name": "DS_FromGithub",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServer1",

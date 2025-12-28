@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "DS_MultiSourceAzureSQLGit_To_AzureSQL",
 	"properties": {
 		"activities": [
 			{
@@ -41,13 +41,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "DS_products",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Parquet1",
+						"referenceName": "DS_BronzeProduct",
 						"type": "DatasetReference"
 					}
 				]
@@ -98,7 +98,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "AzureSqlTable2",
+						"referenceName": "DS_transactions",
 						"type": "DatasetReference"
 					}
 				],
@@ -155,7 +155,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "AzureSqlTable3",
+						"referenceName": "DS_stores",
 						"type": "DatasetReference"
 					}
 				],
@@ -209,7 +209,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "DS_FromGithub",
 						"type": "DatasetReference"
 					}
 				],

@@ -1,5 +1,5 @@
 {
-	"name": "Parquet1",
+	"name": "DS_BronzeProduct",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",

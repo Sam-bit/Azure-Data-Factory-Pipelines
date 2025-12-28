@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable5",
+	"name": "DS_AzureSQL_FL_DynamicTables",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",

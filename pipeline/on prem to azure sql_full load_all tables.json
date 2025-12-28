@@ -99,7 +99,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "AzureSqlTable5",
+									"referenceName": "DS_AzureSQL_FL_DynamicTables",
 									"type": "DatasetReference",
 									"parameters": {
 										"DestinationSchema": {
