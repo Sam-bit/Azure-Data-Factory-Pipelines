@@ -145,7 +145,7 @@
 					"storedProcedureParameters": {
 						"LastModifiedtime": {
 							"value": {
-								"value": "@{activity('LKP_LastModifiedDate').output.firstRow.LastModifiedDate}",
+								"value": "@{activity('LKP_LastModifiedDate').output.firstRow.LastModifiedTime}",
 								"type": "Expression"
 							},
 							"type": "DateTime"
