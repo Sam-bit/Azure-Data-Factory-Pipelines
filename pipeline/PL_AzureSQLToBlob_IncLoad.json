@@ -1,0 +1,6 @@
+{
+	"name": "PL_AzureSQLToBlob_IncLoad",
+	"properties": {
+		"annotations": []
+	}
+}
