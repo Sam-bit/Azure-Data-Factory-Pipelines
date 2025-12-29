@@ -1,0 +1,25 @@
+{
+	"name": "DS_OnPremFiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OnPrem_FileSystem",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"FileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": {
+					"value": "@dataset().FileName",
+					"type": "Expression"
+				}
+			}
+		}
+	}
+}

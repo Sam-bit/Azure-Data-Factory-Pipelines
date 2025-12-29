@@ -1,0 +1,16 @@
+{
+	"name": "DS_GetAllFiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OnPrem_FileSystem",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			}
+		}
+	}
+}
