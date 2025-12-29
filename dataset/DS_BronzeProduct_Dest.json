@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "dbo.products.parquet",
 				"folderPath": "bronze/product",
 				"fileSystem": "retail"
 			},
