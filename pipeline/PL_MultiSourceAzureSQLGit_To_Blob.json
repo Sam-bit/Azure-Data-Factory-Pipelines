@@ -47,7 +47,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_BronzeProduct",
+						"referenceName": "DS_BronzeProduct_Dest",
 						"type": "DatasetReference"
 					}
 				]
