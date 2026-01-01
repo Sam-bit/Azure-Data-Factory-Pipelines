@@ -67,6 +67,7 @@
 				"flatten2 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     partitionFileNames:[(concat('out_', toString(currentTimestamp(), 'yyyyMMddHHmmss'), '.csv'))],",
+				"     truncate: true,",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
 				"     partitionBy('hash', 1)) ~> sink1"
