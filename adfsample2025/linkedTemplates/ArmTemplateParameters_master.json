@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsample2025"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_OnPrem_FileSystem_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://retailproject2026.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-db-ssdb2026.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-db-123"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sambitadmin"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"LS_OnPrem_FileSystem_properties_typeProperties_host": {
+			"value": "D:\\GoProjects\\QrGifEncode\\open"
+		},
+		"LS_OnPrem_FileSystem_properties_typeProperties_userId": {
+			"value": "LENOVO"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-FF63BU0E\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "PerformanceV3"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sqlproject"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
