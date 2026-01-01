@@ -15,7 +15,7 @@
 		"typeProperties": {
 			"recurrence": {
 				"frequency": "Minute",
-				"interval": null,
+				"interval": 15,
 				"startTime": "2026-01-01T15:25:00",
 				"timeZone": "India Standard Time"
 			}
